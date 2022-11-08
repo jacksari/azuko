@@ -49,7 +49,7 @@ const Nav = () => {
                         duration={1000}
                         onSetActive={()=>{}}
                     >
-                        ¡Denuncia Ya!
+                        ¡Iniciar ya!
                     </Li>
                 </div>
             </div>

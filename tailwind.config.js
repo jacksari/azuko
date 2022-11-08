@@ -10,7 +10,7 @@ module.exports = {
                 serif: ['Roboto', 'serif'],
             },
             backgroundImage: {
-                'hero-header': "url('/img/portadaencabezado.png')",
+                'hero-header': "url('/img/portadaencabezado.jpg')",
                 'hero-landing1': "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('/img/landing1.jpg')",
                 'hero-landing2': "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('/img/landing2.jpg')",
                 'hero-login': "linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('/img/header-login.jpg')",
@@ -19,25 +19,25 @@ module.exports = {
         display: ['group-hover'],
         colors: {
             primary: {
-                100: '#ccdff9',
-                200: '#99c0f2',
-                300: '#66a0ec',
-                400: '#5D41DD',
-                500: '#3813E1',
-                600: '#004eb2',
-                700: '#003a86',
-                800: '#002759',
-                900: '#00132d'
+                100: '#fffdeb',
+                200: '#fdf6af',
+                300: '#fdf186',
+                400: '#fced5e',
+                500: '#FBE836',
+                600: '#c9ba2b',
+                700: '#978b20',
+                800: '#645d16',
+                900: '#322e0b'
             },
             primary_dark: {
-                500: '#0D263B'
+                500: '#e2d131'
             },
             secondary: {
                 100: '#e7f2f6',
                 200: '#cfe6ed',
                 300: '#b7d9e5',
                 400: '#9fcddc',
-                500: '#87c0d3',
+                500: '#D36690',
                 600: '#6c9aa9',
                 700: '#51737f',
                 800: '#364d54',

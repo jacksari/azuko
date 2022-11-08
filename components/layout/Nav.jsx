@@ -31,10 +31,10 @@ const Nav = () => {
                 </div>
                 <div className="flex items-center mr-2 md:mr-0">
                     <div className="mx-2 hidden md:block">
-                        <FaRegUser color="#fff" size="1.2rem"/>
+                        <FaRegUser color="#D36690" size="1.2rem"/>
                     </div>
                     <Li
-                        className="cursor-pointer ml-4 inline-flex items-center px-3 md:px-6 py-1 md:py-2 bg-white border border-white rounded font-semibold text-xs text-primary-500 shadow uppercase tracking-widest hover:bg-gray-100 active:bg-gray-100 focus:outline-none focus:border-primary-100 focus:ring focus:ring-primary-200 disabled:opacity-25 transition"
+                        className="cursor-pointer ml-4 inline-flex items-center px-3 md:px-6 py-1 md:py-2 bg-secondary-500 border border-secondary-500 rounded font-semibold text-xs text-primary-500 shadow uppercase tracking-widest hover:bg-gray-100 active:bg-gray-100 focus:outline-none focus:border-primary-100 focus:ring focus:ring-primary-200 disabled:opacity-25 transition"
                         activeClass="active"
                         to="enrolled"
                         spy={true}
@@ -43,7 +43,7 @@ const Nav = () => {
                         duration={1000}
                         onSetActive={()=>{}}
                     >
-                        ¡Denuncia Ya!
+                        ¡Iniciar ya!
                     </Li>
                 </div>
             </div>

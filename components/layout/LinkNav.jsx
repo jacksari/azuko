@@ -6,7 +6,7 @@ function LinkNav({href, text}) {
     const router = useRouter();
     return (
         <Link href={href}>
-            <a className={`text-white font-normal text-sm mx-4 border-b-2 pb-1 ${href == router.asPath ? 'font-semibold' : 'border-transparent'} hover:border-white active:border-white transition`}>{text}</a>
+            <a className={`text-secondary-500 font-normal text-sm mx-4 border-b-2 pb-1 ${href == router.asPath ? 'font-semibold' : 'border-transparent'} hover:border-white active:border-white transition`}>{text}</a>
         </Link>
     );
 }

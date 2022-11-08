@@ -55,9 +55,9 @@ export default function Home() {
           <HeaderHome/>
 
           <div className="bg-gray-100 py-16">
-              <div className="w-full mx-auto max-w-6xl sm:px-6 lg:px-8">
-                  <h2 className="text-center font-bold text-3xl mb-12 text-black2">Los canales con más denuncias</h2>
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-8 m-12">
+              <div className="w-full mx-auto max-w-6xl sm:px-6 lg:px-8">¿Elige el plan ideal para ti?
+                  <h2 className="text-center font-bold text-3xl mb-12 text-black2"></h2>
+                  {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-8 m-12">
                       {
                           canales.map(item => (
                               <div key={item.image} className="bg-white p-8 md:p-16 md:pb-8 rounded text-center shadow-sm relative">
@@ -69,11 +69,11 @@ export default function Home() {
                               </div>
                           ))
                       }
-                  </div>
+                  </div> */}
 
                   <div className=" p-3 mt-10 rounded flex flex-col items-center justify-center">
 
-                      <h3 className="text-center font-bold text-3xl mb-12 text-black2">Tu denuncia cuenta, te necesitamos</h3>
+                      <h3 className="text-center font-bold text-3xl mb-12 text-black2">Iniciar ahora con mi plan ideal</h3>
                       <BtnPrimary
                           title="Ver más"
                       />
