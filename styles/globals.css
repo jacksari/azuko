@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  min-height: 100vh;
+}
+.border-1 {
+  border-width: 1px;
+}
+.border-b-1 {
+  border-bottom-width: 1px;
+}
+.border-t-1 {
+  border-top-width: 1px;
+}
+.border-r-1 {
+  border-right-width: 1px;
+}
+.border-l-1 {
+  border-left-width: 1px;
+}
+.border-footer{
+  border-color: rgba(255, 255, 255, 0.15);
+}
+.bg-red{
+  background: red;
+}
+
+body::-webkit-scrollbar{
+  width: 7px ;
+  background: #99c0f2;
+}
+body::-webkit-scrollbar-thumb{
+  background: #0061DF;
+  border-radius: 10px;
+}
+
+.h-header-school{
+  height: calc(100vh - 66px);
+}
+
+.font-t2{
+  font-weight: 300;
+}
+
+.section-max{
+  max-width: 1660px;
+}
+
+.bg-school-details{
+  background: #F6F8F9;
+}
+
+.container-mansonry {
+  column-count: 2;
+  column-gap: 1em;
+}
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
