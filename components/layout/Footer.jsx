@@ -19,7 +19,7 @@ function Footer(props) {
                     </p>
                     <p className="flex items-center mb-3">
                         <FiMail color="#D36690" size="1.2rem"/>
-                        <span className="ml-4 text-secondary-500 text-sm font-light">allitv2022@gmail.com</span>
+                        <span className="ml-4 text-secondary-500 text-sm font-light">holaazuko@gmail.com</span>
                     </p>
                     <div className="flex items-center mt-4">
                         <a href="https://www.facebook.com/Micole.peru" className="mr-6 hover:bg-white hover:bg-opacity-25 p-2 rounded transition">
@@ -85,7 +85,7 @@ function Footer(props) {
             </div>
             <div className="border-t-1 border-footer ">
                 <div className="py-8 w-full mx-auto max-w-7xl sm:px-6 lg:px-8 flex flex-col md:flex-row md:items-start md:justify-between">
-                    <p className="text-secondary-500 text-xs md:text-sm font-light text-center px-2 md:px-0">© { new Date().getFullYear()} Desarrollado por Alli - Todos los derechos reservados.</p>
+                    <p className="text-secondary-500 text-xs md:text-sm font-light text-center px-2 md:px-0">© { new Date().getFullYear()} Desarrollado por Azuko - Todos los derechos reservados.</p>
                     <div className="text-center">
                         <Link href="/nosotros">
                             <a className="text-secondary-500 text-xs md:text-sm font-light my-2 md:mx-2">Nosotros</a>
